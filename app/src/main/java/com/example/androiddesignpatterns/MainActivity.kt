@@ -2,11 +2,13 @@ package com.example.androiddesignpatterns
 
 import android.os.Bundle
 import androidx.appcompat.app.AppCompatActivity
-import com.example.androiddesignpatterns.Builder.Hamburger
-import com.example.androiddesignpatterns.Factory.DialogFactory
-import com.example.androiddesignpatterns.Factory.DialogType
-import com.example.androiddesignpatterns.Singleton.Singleton
+import com.example.androiddesignpatterns.patternsCategories.creational.builder.Hamburger
+import com.example.androiddesignpatterns.factory.DialogFactory
+import com.example.androiddesignpatterns.factory.DialogType
+import com.example.androiddesignpatterns.patternsCategories.creational.singleton.Singleton
+import dagger.hilt.android.AndroidEntryPoint
 
+@AndroidEntryPoint
 class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)

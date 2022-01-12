@@ -1,4 +1,4 @@
-package com.example.androiddesignpatterns.Facade
+package com.example.androiddesignpatterns.patternsCategories.structural.facade
 
 /*
 * Facade Pattern is about hiding code which one you shouldn't see - code under the hood.

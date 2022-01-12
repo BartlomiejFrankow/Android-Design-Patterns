@@ -1,4 +1,4 @@
-package com.example.androiddesignpatterns.Builder
+package com.example.androiddesignpatterns.patternsCategories.creational.builder
 
 class Hamburger private constructor(
     val cheese: Boolean,
