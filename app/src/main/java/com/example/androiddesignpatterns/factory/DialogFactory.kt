@@ -1,4 +1,4 @@
-package com.example.androiddesignpatterns.Factory
+package com.example.androiddesignpatterns.factory
 
 enum class DialogType {
     DIALOG_CREATE_CHAT,
