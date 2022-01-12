@@ -3,8 +3,8 @@ package com.example.androiddesignpatterns
 import android.os.Bundle
 import androidx.appcompat.app.AppCompatActivity
 import com.example.androiddesignpatterns.patternsCategories.creational.builder.Hamburger
-import com.example.androiddesignpatterns.factory.DialogFactory
-import com.example.androiddesignpatterns.factory.DialogType
+import com.example.androiddesignpatterns.patternsCategories.structural.factory.DialogFactory
+import com.example.androiddesignpatterns.patternsCategories.structural.factory.DialogType
 import com.example.androiddesignpatterns.patternsCategories.creational.singleton.Singleton
 import dagger.hilt.android.AndroidEntryPoint
 
