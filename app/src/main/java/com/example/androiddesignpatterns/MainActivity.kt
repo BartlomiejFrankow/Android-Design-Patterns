@@ -6,7 +6,9 @@ import com.example.androiddesignpatterns.patternsCategories.creational.builder.H
 import com.example.androiddesignpatterns.factory.DialogFactory
 import com.example.androiddesignpatterns.factory.DialogType
 import com.example.androiddesignpatterns.patternsCategories.creational.singleton.Singleton
+import dagger.hilt.android.AndroidEntryPoint
 
+@AndroidEntryPoint
 class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
