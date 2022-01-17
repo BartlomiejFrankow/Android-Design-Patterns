@@ -11,3 +11,8 @@ class TicketPriceView(context: Context) : View(context) {
         Toast.makeText(context, "Ticket price: ${adapter.getPriceInZloty()}", Toast.LENGTH_LONG).show()
     }
 }
+
+enum class Currency {
+    POLISH_ZLOTY,
+    EURO
+}

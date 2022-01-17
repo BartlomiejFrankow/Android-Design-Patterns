@@ -1,3 +1,7 @@
 <resources>
     <string name="app_name">Android Design Patterns</string>
+    <string name="new_text_info">Observe Activity state!</string>
+    <string name="add_order">Add new order</string>
+    <string name="pay_order">Pay current order</string>
+    <string name="removed_text_info">Text removed</string>
 </resources>
