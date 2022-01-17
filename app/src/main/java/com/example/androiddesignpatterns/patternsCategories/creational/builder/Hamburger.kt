@@ -1,5 +1,9 @@
 package com.example.androiddesignpatterns.patternsCategories.creational.builder
 
+/*
+* In a builder pattern, you are only concerned about what you need from a class and not everything that a class has.
+* */
+
 class Hamburger private constructor(
     val cheese: Boolean,
     val beef: Boolean,

@@ -12,6 +12,12 @@ import com.example.androiddesignpatterns.databinding.FragmentObserveBinding
 import dagger.hilt.android.AndroidEntryPoint
 import kotlinx.coroutines.flow.collect
 
+/*
+* The observer pattern is like one-to-many(or one) dependencies between objects.
+* For example, on YouTube, you can subscribe to a particular channel and if some video is uploaded
+* on that channel then all its subscriber will be notified about the change or about the new video.
+* */
+
 @AndroidEntryPoint
 class ObserveFragment : Fragment(R.layout.fragment_observe) {
 
