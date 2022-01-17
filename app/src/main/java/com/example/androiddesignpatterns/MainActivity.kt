@@ -48,13 +48,17 @@ class MainActivity : AppCompatActivity() {
         // Factory
         factoryUsage()
 
+        // Builder
         builderUsage()
 
+        // Adapter
         adapterUsage(POLISH_ZLOTY)
         adapterUsage(EURO)
 
+        // Command
         commandUsage()
 
+        // Observer
         observerUsage()
     }
 
