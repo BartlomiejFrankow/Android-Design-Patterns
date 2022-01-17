@@ -18,5 +18,13 @@ In this Design Pattern, we are concerned about the structure of the code. Here w
 2. Facade
 3. Factory
 
+
 ### Behavioural Pattern
 1. Observer
+2. Command
+3. Architecture design patterns:
+ - clean
+ - mvc
+ - mvp
+ - mvvm
+ - mvi
