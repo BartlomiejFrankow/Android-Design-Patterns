@@ -20,7 +20,7 @@ class ObserveViewModel @Inject constructor() : ViewModel() {
 
     private fun changeName() {
         viewModelScope.launch {
-            _viewState.emit(ObserveViewState.SetNewName)
+            _viewState.emit(ObserveViewState.SetObserveName)
         }
     }
 

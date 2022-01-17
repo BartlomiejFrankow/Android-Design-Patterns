@@ -1,6 +1,6 @@
 package com.example.androiddesignpatterns.patternsCategories.behavioural.observer
 
 sealed class ObserveViewState {
-    object SetNewName: ObserveViewState()
+    object SetObserveName: ObserveViewState()
     object RemoveName: ObserveViewState()
 }
