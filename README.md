@@ -20,6 +20,8 @@ In this Design Pattern, we are concerned about the structure of the code. Here w
 
 
 ### Behavioural Pattern
+Behavioural Pattern mainly tells how the objects of the classes will communicate with each other. These patterns help us in understanding the code in a better way because by viewing the code we can identify the pattern and then we can understand the code in a better way. Some of the behavioural patterns are Chain of Responsibility, Interpreter, Mediator, Observer, Command, Model View Controler, Model View ViewModel, etc.
+
 1. Observer
 2. Command
 3. Architecture design patterns:
@@ -28,3 +30,8 @@ In this Design Pattern, we are concerned about the structure of the code. Here w
  - mvp
  - mvvm
  - mvi
+
+### Materials used to create repo with examples and descriptions:
+- https://blog.mindorks.com/mastering-design-patterns-in-android-with-kotlin
+- https://amsterdamstandard.com/en/post/modern-android-architecture-with-mvi-design-pattern
+- https://www.youtube.com/watch?v=4cCwuBsqfTI
