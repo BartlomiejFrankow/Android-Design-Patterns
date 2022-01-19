@@ -27,12 +27,11 @@ class MainActivity : AppCompatActivity() {
 
     private val viewModel: ObserveViewModel by viewModels()
 
+    // Dependency Injection
     @Inject
     lateinit var ticketPriceView: TicketPriceView
-
     @Inject
     lateinit var addOrder: AddOrder
-
     @Inject
     lateinit var payOrder: AddOrder
 
