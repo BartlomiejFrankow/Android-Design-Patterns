@@ -25,10 +25,9 @@ Behavioural Pattern mainly tells how the objects of the classes will communicate
 1. Observer
 2. Command
 3. Architecture design patterns:
- - clean
+ - clean mvvm
  - mvc
  - mvp
- - mvvm
  - mvi
 
 ### Materials used to create repo with examples and descriptions:
