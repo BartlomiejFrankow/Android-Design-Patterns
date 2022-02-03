@@ -19,5 +19,6 @@ class AboutMVI {
 
     fun ilustratePattern() {
         R.drawable.mvi
+        // Repository with clean architecture MVVM app: https://github.com/BartlomiejFrankow/mvi-example
     }
 }
